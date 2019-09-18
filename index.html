@@ -1,0 +1,64 @@
+<html>
+<head>
+<title></title>
+<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/index_style.css">
+</head>
+<body>
+    <section class="mt-5"> 
+    <input class=" form-control w-75 m-auto" placeholder="search..." id="searchInp">
+    <div class="container mt-5">
+            <div class="row" id="searchRows">
+        </div>
+        </div>
+    <div class="container my-3 form py-3">
+        <div class="form-group mt-5">
+        <label>ProductName :</label>
+        <input id="ProductName" class="form-control">
+        <p class="alert alert-danger mt-2 text-center show" id="showName"> product name is required</p>
+        <p class="alert alert-danger mt-2 text-center show" id="nameErorr"> Invalid product name</p>
+    </div> 
+    <div class="form-group">
+        <label>ProductPrice :</label>
+        <input id="ProductPrice" class="form-control">
+        <p class="alert alert-danger mt-2 text-center show" id="showPrice"> product price is required</p>
+        <p class="alert alert-danger mt-2 text-center show" id="priceErorr"> Invalid product price</p>
+
+
+    </div> 
+    <div class="form-group">
+        <label>ProductCompany :</label>
+        <input id="ProductCompany" class="form-control">
+    </div>
+    <div class="form-group">
+        <label>ProductDescription :</label>
+       <textarea id="ProductDesc" class="form-control"></textarea>
+    </div>
+    <!-- <div class="form-group">
+        <label for="imageFile1" class="d-block mb-2">Upload product Iamge</label>
+        <input type="file" id="i_file" value="" class="mb-3 btn btn-primary"> 
+        <br>
+        <img src="" width="200" id="imgCon" style="display:none;" />
+        <br>
+      </div> -->
+
+
+    <button id="btnInp" class="btn btn-primary float-right">AddProduct</button>
+    <div class="clearfix"></div>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row" id="rows">
+    </div>
+    </div>
+    </section>
+    <footer class="mt-5 pt-5">
+    <div class="container header">
+             <h6 class="text-muted text-capitalize">&copy;Developed by <span class="text-danger">Menna El-Beramy</span></h6>
+         </div> 
+    </footer>
+<script src="js/jquery-3.4.1.min.js"></script> 
+<script src="js/index_js.js"></script> 
+
+</body>
+</html>

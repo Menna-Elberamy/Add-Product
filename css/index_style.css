@@ -1,0 +1,19 @@
+.alert{padding: 0.1rem 1.25rem;}
+.alert-danger{ border-color: #721c24;}
+.container .show{display: none;}
+section label{
+    font-weight: 600;
+}
+footer .container{
+   border-top: 1px solid #999;
+   padding: 20px;    
+}
+footer .container h2{font-size: 14px;}
+.form{
+    border: solid 1px #999;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
